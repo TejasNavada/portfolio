@@ -221,87 +221,87 @@ dialog::backdrop {
                         <div style={{width:"66vw", }}>
                             Here is our welcome page, which displays the Nasa Astronomy Picture of the Day along with its title and description below. Underneath that are links to the various APIs that we used in making this app as well as their logos.
                             <div style={{display:"flex", justifyContent:"space-around"}}>
-                                <img width="33%" src="image40.png"></img>
-                                <img width="33%" src="image11.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image40.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image11.png"></img>
                             </div>
                             Here is a screenshot of our jigsaw puzzle functionality. Users can start the timer and are challenged to put the image back together as fast as possible. After completing the puzzle they are shown their time and given a rating based on how many seconds they took to complete. The user can also cancel the puzzle which stops the game and timer.
                             <div style={{display:"flex", justifyContent:"space-around"}}>
-                                <img width="33%" src="image1.png"></img>
-                                <img width="33%" src="image12.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image1.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image12.png"></img>
                             </div>
                             From the Favorites tab the user can select which media type they want to view and will show all the media users have saved in their database of that type, along with some information about the image. The user can search this list and delete media from their database. If a user taps on one of the saved photos they can go to a description page with all of the information about the image. 
                             <div style={{display:"flex", justifyContent:"space-around"}}>
-                                <img width="33%" src="image16.png"></img>
-                                <img width="33%" src="image29.png"></img>
-                                <img width="33%" src="image44.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image16.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image29.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image44.png"></img>
                             </div>
                             Users can add a new picture by tapping the plus button. They will add a name and the NASA center that the image was taken from. They can take a picture with their iphone camera or they can add one from their photos. Then they must add a description using our text to speech functionality. If a user does not enter a field an alert pops up saying missing input data informing the user to fill in all fields. Once filling in all fields the user can click save and their media will be added to the favorites database.
                             <div style={{display:"flex", justifyContent:"space-around"}}>
-                                <img width="33%" src="image35.png"></img>
-                                <img width="33%" src="image43.png"></img>
-                                <img width="33%" src="image26.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image35.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image43.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image26.png"></img>
                             </div>
                             Similar to the previous images, these are images of the user’s saved videos with a thumbnail and information. Users can see the details of the videos by tapping on one. They can play the video in this details view. They can add a new video in much the same way they can add a new image, by taking a video or uploading one.
                             <div style={{display:"flex", justifyContent:"space-around"}}>
-                                <img width="25%" src="image3.png"></img>
-                                <img width="25%" src="image4.png"></img>
-                                <img width="25%" src="image15.png"></img>
-                                <img width="25%" src="image7.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="25%" src="image3.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="25%" src="image4.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="25%" src="image15.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="25%" src="image7.png"></img>
                             </div>
                             Once again, these are a list of saved audios that a user has stored in their database. By tapping on one, they can go to a details view and listen to that audio and view other pieces of information. They can create their own audio with our recording feature.
                             <div style={{display:"flex", justifyContent:"space-around"}}>
-                                <img width="33%" src="image14.png"></img>
-                                <img width="33%" src="image33.png"></img>
-                                <img width="33%" src="image34.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image14.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image33.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image34.png"></img>
                             </div>
                             Here you can see a map view of natural events happening around the world. You can filter the events by their recency and event category. We grabbed these events from NASA’s Natural Event Tracker. They have custom icons based on what type of events they are. You can see many wildfires in the US right now. You can also see the user's current location on the map. Clicking on an icon brings up the event title and location name.
                             <div style={{display:"flex", justifyContent:"space-around"}}>
-                                <img width="33%" src="image42.png"></img>
-                                <img width="33%" src="image19.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image42.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image19.png"></img>
                             </div>
                             Clicking on this bubble of text brings you to a view where you can see the event title, description, coordinates category and clickable link to where the EONET api sourced this information from.
                             <div style={{display:"flex", justifyContent:"space-around"}}>
-                                <img width="33%" src="image41.png"></img>
-                                <img width="33%" src="image8.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image41.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image8.png"></img>
                             </div>
                             This is the more tab and allows the user to enter the next 5 tabs.
                             <div style={{display:"flex", justifyContent:"space-around"}}>
-                                <img width="33%" src="image36.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image36.png"></img>
                             </div>
                             In the  Database Images in Slider tab you can see a UI where users can slide through the images they have saved in their database. Above the image is their title. There is also a color picker to set the background color of the view.
                             <div style={{display:"flex", justifyContent:"space-around"}}>
-                                <img width="33%" src="image44.png"></img>
-                                <img width="33%" src="image13.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image44.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image13.png"></img>
                             </div>
                             In the Database Videos in Image Grid tab, it displays the thumbnails of all the videos in your favorites database in a grid. If you long press it tells you the title of the video, when it was created and which center it's from. If you just tap on the image it will bring you to a view where you can watch the video
                             <div style={{display:"flex", justifyContent:"space-around"}}>
-                                <img width="33%" src="image18.png"></img>
-                                <img width="33%" src="image15.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image18.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image15.png"></img>
                             </div>
                             You can search your favorites database for photos, videos, and audios, and query by title, description, or center, or you can query by a date range
                             <div style={{display:"flex", justifyContent:"space-around"}}>
-                                <img width="33%" src="image27.png"></img>
-                                <img width="33%" src="image25.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image27.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image25.png"></img>
                             </div>
                             After querying you can view the results in a list and view the details of each media.
                             <div style={{display:"flex", justifyContent:"space-around"}}>
-                                <img width="33%" src="image30.png"></img>
-                                <img width="33%" src="image10.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image30.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image10.png"></img>
                             </div>
                             You can search the Nasa Library Api for Photos, Videos, and Audios based on a query string that checks the Nasa Library items that contain that string in their title, description and center
                             <div style={{display:"flex", justifyContent:"space-around"}}>
-                                <img width="33%" src="image2.png"></img>
-                                <img width="33%" src="image17.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image2.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image17.png"></img>
                             </div>
                             After querying you can view the returned media and add it to your Favorites.
                             <div style={{display:"flex", justifyContent:"space-around"}}>
-                                <img width="33%" src="image24.png"></img>
-                                <img width="33%" src="image21.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image24.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image21.png"></img>
                             </div>
                             In the settings page, there is a switch the user can toggle to switch between light and dark mode which will be changed accordingly for all tabs in the application.
                             <div style={{display:"flex", justifyContent:"space-around"}}>
-                                <img width="33%" src="image22.png"></img>
-                                <img width="33%" src="image20.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image22.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image20.png"></img>
                             </div>
                         </div>
                         
