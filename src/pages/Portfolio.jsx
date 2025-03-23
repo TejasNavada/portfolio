@@ -32,7 +32,7 @@ const Portfolio = () => {
             </div>
 
             <Block onMouseEnter={()=>setCatIsHovered(true)} onMouseLeave={()=>setCatIsHovered(false)} style={{width:"50vw", margin:"auto", textAlign:"left",paddingLeft:"2.5vw", paddingTop:"2.5vh", display:"flex", justifyContent:"space-between", marginBlock:"5vh", transform: catIsHovered ? 'scale(1.02)' : 'scale(1)', transition: 'transform 0.3s ease-in-out',}}>
-                <div>
+                <div style={{marginRight:"2.5vw"}}>
                     <span style={{fontSize:24, fontWeight:500}}>
                         Congressional Asset Tracker
                     </span>
@@ -82,7 +82,7 @@ const Portfolio = () => {
                         {/* <button style={{position:"sticky",bottom:0, marginTop:"2vh",backgroundColor:"#fff", color:"#000",borderRadius:"50px", border:"0", marginRight:"5px" }}onClick={()=>setShowCat(true)}>
                         <div style={{ padding:".5em",  textAlign:"center"}}>Demo</div>
                         </button> */}
-                        <button style={{position:"sticky",bottom:0, marginTop:"2vh",backgroundColor:"#fff", color:"#000",borderRadius:"50px", border:"0" }} onClick={() => {window.open('https://cat.tejasnavada.com/');}}>
+                        <button style={{position:"sticky",bottom:0, marginBlock:"2vh",backgroundColor:"#fff", color:"#000",borderRadius:"50px", border:"0" }} onClick={() => {window.open('https://cat.tejasnavada.com/');}}>
                         <div style={{ padding:".5em",  textAlign:"center"}}>Live</div>
                         </button>
                     </div>
@@ -106,11 +106,11 @@ dialog::backdrop {
                     </Modal>
                     
                 </div>
-                <img style={{borderRadius:"10px", marginLeft:"2.5vw"}} height="333vh" src="CATDEMO.gif"></img>
+                <img style={{borderRadius:"10px", margin:"auto",marginLeft:"2.5vw",minWidth:"50%", objectFit:"contain", width:"auto", height:"auto"}}  src="CATDEMO.gif"></img>
             </Block>
 
             <Block onMouseEnter={()=>setVizmeIsHovered(true)} onMouseLeave={()=>setVizmeIsHovered(false)} style={{width:"50vw", margin:"auto", textAlign:"left",paddingLeft:"2.5vw", paddingTop:"2.5vh", display:"flex", justifyContent:"space-between", marginBlock:"5vh", transform: vizmeIsHovered ? 'scale(1.02)' : 'scale(1)', transition: 'transform 0.3s ease-in-out',}}>
-                <div>
+                <div style={{marginRight:"2.5vw"}}>
                     <span style={{fontSize:24, fontWeight:500}}>
                         VizME
                     </span>
@@ -160,7 +160,7 @@ dialog::backdrop {
                         {/* <button style={{position:"sticky",bottom:0, marginTop:"2vh",backgroundColor:"#fff", color:"#000",borderRadius:"50px", border:"0", marginRight:"5px" }}onClick={()=>setShowVizME(true)}>
                         <div style={{ padding:".5em",  textAlign:"center"}}>Demo</div>
                         </button> */}
-                        <button style={{position:"sticky",bottom:0, marginTop:"2vh",backgroundColor:"#fff", color:"#000",borderRadius:"50px", border:"0" }} onClick={() => {window.open('https://cat.tejasnavada.com/');}}>
+                        <button style={{position:"sticky",bottom:0, marginBlock:"2vh",backgroundColor:"#fff", color:"#000",borderRadius:"50px", border:"0" }} onClick={() => {window.open('https://cat.tejasnavada.com/');}}>
                         <div style={{ padding:".5em",  textAlign:"center"}}>Live</div>
                         </button>
                     </div>
@@ -186,11 +186,11 @@ dialog::backdrop {
                     </Modal>
                     
                 </div>
-                <img style={{borderRadius:"10px", marginLeft:"2.5vw"}} height="333vh" src="VIZMEDEMO.gif"></img>
+                <img style={{borderRadius:"10px", margin:"auto",marginLeft:"2.5vw",minWidth:"50%", objectFit:"contain", width:"auto", height:"auto", bottom:0}}  src="VIZMEDEMO.gif"></img>
             </Block>
 
             <Block onMouseEnter={()=>setPlanetariumIsHovered(true)} onMouseLeave={()=>setPlanetariumIsHovered(false)} style={{width:"50vw", margin:"auto", textAlign:"left",paddingLeft:"2.5vw", paddingTop:"2.5vh", display:"flex", justifyContent:"space-between", marginBlock:"5vh", transform: planetariumIsHovered ? 'scale(1.02)' : 'scale(1)', transition: 'transform 0.3s ease-in-out',}}>
-                <div>
+                <div style={{marginRight:"2.5vw"}}>
                     <span style={{fontSize:24, fontWeight:500}}>
                         Planetarium
                     </span>
@@ -205,7 +205,7 @@ dialog::backdrop {
                         Planetarium empowers users to perform targeted searches for media based on various parameters like date, location, and title, filling a need for more tailored access to NASA’s content. Users can store their favorite finds in a centralized database, simplifying the process of revisiting preferred media and creating a custom collection. The interactive map feature provides real-time insights into natural events worldwide, helping users to stay informed on global happenings like wildfires, hurricanes, and dust storms. The filtering options on the map allow users to focus on specific event types, adding an educational and informational dimension that extends beyond static media consumption.
                     </span>
                     <div>
-                        <button style={{position:"sticky",bottom:0, marginTop:"2vh",backgroundColor:"#fff", color:"#000",borderRadius:"50px", border:"0", marginRight:"5px" }}onClick={()=>setShowPlanetarium(true)}>
+                        <button style={{position:"sticky",bottom:0, marginBlock:"2vh",backgroundColor:"#fff", color:"#000",borderRadius:"50px", border:"0", marginRight:"5px" }}onClick={()=>setShowPlanetarium(true)}>
                         <div style={{ padding:".5em",  textAlign:"center"}}>Demo</div>
                         </button>
                         {/* <button style={{position:"sticky",bottom:0, marginTop:"2vh",backgroundColor:"#fff", color:"#000",borderRadius:"50px", border:"0" }} onClick={() => {window.open('https://cat.tejasnavada.com/');}}>
@@ -327,7 +327,7 @@ dialog::backdrop {
                 </div>
             </Block>
             <Block onMouseEnter={()=>setCatIsHovered(true)} onMouseLeave={()=>setCatIsHovered(false)} style={{width:"50vw", margin:"auto", textAlign:"left",paddingLeft:"2.5vw", paddingTop:"2.5vh", display:"flex", justifyContent:"space-between", marginBlock:"5vh", transform: catIsHovered ? 'scale(1.02)' : 'scale(1)', transition: 'transform 0.3s ease-in-out',}}>
-                <div>
+                <div style={{marginRight:"2.5vw"}}>
                     <span style={{fontSize:24, fontWeight:500}}>
                         Portfolio Site
                     </span>
@@ -356,7 +356,7 @@ dialog::backdrop {
                     </span>
                     
                 </div>
-                <img style={{borderRadius:"10px", marginLeft:"2.5vw"}} height="333vh" src="PORTFOLIODEMO.gif"></img>
+                <img style={{borderRadius:"10px", margin:"auto",marginLeft:"2.5vw",minWidth:"50%", objectFit:"contain", width:"auto", height:"auto"}}  src="PORTFOLIODEMO.gif"></img>
             </Block>
 
             <Footer/>
