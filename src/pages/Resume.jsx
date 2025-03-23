@@ -205,7 +205,7 @@ body {
                         </style>
             
 
-            <Block style={{width:"45vw", margin:"auto", paddingInline:"2.5vw", paddingBlock:"5vh", marginBlock:"10vh", justifyContent:"center", justifyItems:"center", alignContent:"center", }}>
+            <Block style={{width:"50vw", margin:"auto", paddingInline:"2.5vw", paddingBlock:"5vh", marginBlock:"10vh", justifyContent:"center", justifyItems:"center", alignContent:"center", }}>
                 
                 <iframe src="https://docs.google.com/document/d/e/2PACX-1vS6QLP09ucv7pI_RXIWUNYvUiun2vvB9j57tt33G0qAgW2xY-9fS-msomR4L1TDhZaFL2sBG8YNuhZw/pub?embedded=true" style={{width:"45vw", marginInline:"auto"}} height="718" frameborder="0" >Loading…</iframe>
                 
