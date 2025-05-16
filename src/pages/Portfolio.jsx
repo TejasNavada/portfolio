@@ -12,10 +12,12 @@ import Footer from "../components/Footer";
 const Portfolio = () => {
     const [showCat, setShowCat] = useState(false)
     const [showVizME, setShowVizME] = useState(false)
+    const [showTattoo, setShowTattoo] = useState(false)
     const [showPlanetarium, setShowPlanetarium] = useState(false)
     const [catIsHovered, setCatIsHovered] = useState(false);
     const [vizmeIsHovered, setVizmeIsHovered] = useState(false);
     const [planetariumIsHovered, setPlanetariumIsHovered] = useState(false);
+    const [tattooIsHovered, setTattooIsHovered] = useState(false);
 
     useEffect(() => {
 
@@ -31,7 +33,7 @@ const Portfolio = () => {
 
             </div>
 
-            <Block onMouseEnter={()=>setCatIsHovered(true)} onMouseLeave={()=>setCatIsHovered(false)} style={{width:"50vw", margin:"auto", textAlign:"left",paddingLeft:"2.5vw", paddingTop:"2.5vh", display:"flex", justifyContent:"space-between", marginBlock:"5vh", transform: catIsHovered ? 'scale(1.02)' : 'scale(1)', transition: 'transform 0.3s ease-in-out',}}>
+            <Block hover={true} style={{width:"50vw",minWidth:"600px", maxWidth:"100%", margin:"auto", textAlign:"left",paddingLeft:"2.5vw", paddingTop:"2.5vh", display:"flex", justifyContent:"space-between", marginBlock:"5vh", }}>
                 <div style={{marginRight:"2.5vw"}}>
                     <span style={{fontSize:24, fontWeight:500}}>
                         Congressional Asset Tracker
@@ -109,7 +111,7 @@ dialog::backdrop {
                 <img style={{borderRadius:"10px", margin:"auto",marginLeft:"2.5vw",minWidth:"50%", objectFit:"contain", width:"auto", height:"auto"}}  src="CATDEMO.gif"></img>
             </Block>
 
-            <Block onMouseEnter={()=>setVizmeIsHovered(true)} onMouseLeave={()=>setVizmeIsHovered(false)} style={{width:"50vw", margin:"auto", textAlign:"left",paddingLeft:"2.5vw", paddingTop:"2.5vh", display:"flex", justifyContent:"space-between", marginBlock:"5vh", transform: vizmeIsHovered ? 'scale(1.02)' : 'scale(1)', transition: 'transform 0.3s ease-in-out',}}>
+            <Block hover={true} style={{width:"50vw",minWidth:"600px", maxWidth:"100%", margin:"auto", textAlign:"left",paddingLeft:"2.5vw", paddingTop:"2.5vh", display:"flex", justifyContent:"space-between", marginBlock:"5vh",}}>
                 <div style={{marginRight:"2.5vw"}}>
                     <span style={{fontSize:24, fontWeight:500}}>
                         VizME
@@ -189,7 +191,7 @@ dialog::backdrop {
                 <img style={{borderRadius:"10px", margin:"auto",marginLeft:"2.5vw",minWidth:"50%", objectFit:"contain", width:"auto", height:"auto", bottom:0}}  src="VIZMEDEMO.gif"></img>
             </Block>
 
-            <Block onMouseEnter={()=>setPlanetariumIsHovered(true)} onMouseLeave={()=>setPlanetariumIsHovered(false)} style={{width:"50vw", margin:"auto", textAlign:"left",paddingLeft:"2.5vw", paddingTop:"2.5vh", display:"flex", justifyContent:"space-between", marginBlock:"5vh", transform: planetariumIsHovered ? 'scale(1.02)' : 'scale(1)', transition: 'transform 0.3s ease-in-out',}}>
+            <Block hover={true} style={{width:"50vw",minWidth:"600px", maxWidth:"100%", margin:"auto", textAlign:"left",paddingLeft:"2.5vw", paddingTop:"2.5vh", display:"flex", justifyContent:"space-between", marginBlock:"5vh", }}>
                 <div style={{marginRight:"2.5vw"}}>
                     <span style={{fontSize:24, fontWeight:500}}>
                         Planetarium
@@ -326,7 +328,7 @@ dialog::backdrop {
 
                 </div>
             </Block>
-            <Block onMouseEnter={()=>setCatIsHovered(true)} onMouseLeave={()=>setCatIsHovered(false)} style={{width:"50vw", margin:"auto", textAlign:"left",paddingLeft:"2.5vw", paddingTop:"2.5vh", display:"flex", justifyContent:"space-between", marginBlock:"5vh", transform: catIsHovered ? 'scale(1.02)' : 'scale(1)', transition: 'transform 0.3s ease-in-out',}}>
+            <Block hover={true} style={{width:"50vw",minWidth:"600px", maxWidth:"100%", margin:"auto", textAlign:"left",paddingLeft:"2.5vw", paddingTop:"2.5vh", display:"flex", justifyContent:"space-between", marginBlock:"5vh", }}>
                 <div style={{marginRight:"2.5vw"}}>
                     <span style={{fontSize:24, fontWeight:500}}>
                         Portfolio Site
@@ -359,8 +361,119 @@ dialog::backdrop {
                 <img style={{borderRadius:"10px", margin:"auto",marginLeft:"2.5vw",minWidth:"50%", objectFit:"contain", width:"auto", height:"auto"}}  src="PORTFOLIODEMO.gif"></img>
             </Block>
 
+                        
+            <Block hover={true} style={{width:"50vw",minWidth:"600px", maxWidth:"100%", margin:"auto", textAlign:"left",paddingLeft:"2.5vw", paddingTop:"2.5vh", display:"flex", justifyContent:"space-between", marginBlock:"5vh",}}>
+                <div style={{marginRight:".5vw"}}>
+                    <span style={{fontSize:24, fontWeight:500}}>
+                        Tattoo Design Diffusion Model
+                    </span>
+                    <br></br>
+                    <div style={{display:"flex", marginTop:"2vh"}}>
+                        <div>Made with: </div>
+                        <svg style={{position:"relative",zIndex:11, paddingInline:".5vw"}} xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 32 32"><defs><linearGradient id="A" x1="811.527" y1="574.895" x2="665.255" y2="573.732" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#366a96"/><stop offset="1" stop-color="#3679b0"/></linearGradient><linearGradient id="B" x1="862.824" y1="642.176" x2="573.276" y2="642.176" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffc836"/><stop offset="1" stop-color="#ffe873"/></linearGradient></defs><g transform="matrix(.1617 0 0 .158089 -107.53764 -81.66187)"><path d="M716.255 544.487c0-13.623 3.653-21.034 23.822-24.563 13.693-2.4 31.25-2.7 47.627 0 12.935 2.135 23.822 11.77 23.822 24.563v44.945c0 13.182-10.57 23.98-23.822 23.98h-47.627c-16.164 0-29.787 13.782-29.787 29.363v21.564h-16.376c-13.852 0-21.917-9.988-25.305-23.964-4.57-18.776-4.376-29.963 0-47.945 3.794-15.687 15.917-23.964 29.77-23.964h65.52v-6h-47.645v-17.98z" fill="url(#A)"/><path d="M811.527 688.32c0 13.623-11.823 20.523-23.822 23.964-18.052 5.188-32.54 4.394-47.627 0-12.6-3.67-23.822-11.17-23.822-23.964v-44.945c0-12.935 10.782-23.98 23.822-23.98h47.627c15.864 0 29.787-13.71 29.787-29.963v-20.964h17.858c13.87 0 20.4 10.305 23.822 23.964 4.764 18.97 4.976 33.157 0 47.945-4.817 14.364-9.97 23.964-23.822 23.964H763.9v6h47.627v17.98z" fill="url(#B)"/><path d="M728.166 541.505c0-4.976 3.988-9 8.93-9 4.923 0 8.93 4.023 8.93 9 0 4.96-4.006 8.982-8.93 8.982-4.94 0-8.93-4.023-8.93-8.982zm53.59 149.798c0-4.96 4.006-8.982 8.93-8.982 4.94 0 8.93 4.023 8.93 8.982 0 4.976-3.988 9-8.93 9-4.923 0-8.93-4.023-8.93-9z" fill="#fff"/></g></svg>
+                        <svg style={{position:"relative",zIndex:11, paddingInline:".5vw"}} xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 128 128"><path fill="#EE4C2C" d="M100.1 38.3l-9.2 9.2c15.1 15.1 15.1 39.4 0 54.3-15.1 15.1-39.4 15.1-54.3 0-15.1-15.1-15.1-39.4 0-54.3l24-24 3.4-3.4V2L27.8 38.2C7.7 58.3 7.7 90.8 27.8 111s52.6 20.1 72.4 0c20.1-20.2 20.1-52.5-.1-72.7z"/><circle fill="#EE4C2C" transform="rotate(-88.939 82.069 29.398) scale(.99997)" cx="82.1" cy="29.4" r="6.7"/></svg>
+
+                    </div>
+                    <br></br>
+                    <span>
+                    I developed a training pipeline to fully train a UNET with randomly initialized weights to predict the noise in an image given the latent encoding and text conditional prompt. The pipeline uses the <a href="https://huggingface.co/datasets/Drozdik/tattoo_v3">Drozdik/tattoo_v3</a> dataset of 4.2k tattoo design images to learn the weights. The pipeline takes these images and feeds them to a VAE to get the latent representation, then adds some specified amount of noise to them, then takes the textual caption of the tattoo design and gets the CLIP embedding and feeds the Unet model the noisy latent image, the CLIP embedding of the caption and the magnitude of the noise. The Unet model then predicts the part of the noisy latent image that was added noise. This output is compared to the actual noise added and loss is calculated using MSE. Then it follows stochastic gradient descent to calculate the Unet optimal weights. After training the model to accurately predict the noise in an image, this can be used to generate images from prompts using the diffusion process. You input to the model a fully noisy image and provide it with a prompt and some amount of noise directly correlated with the number of time steps you want to run. The model will intelligently predict what part of the image is noise using the prompt as a context clue. This process is repeated over and over again until you have removed so much noise that it looks similar to a normal image. The last results are after 45 epochs on the 4.2k image dataset
+                    </span>
+                    <div>
+                        {/* <button style={{position:"sticky",bottom:0, marginBlock:"2vh",backgroundColor:"#fff", color:"#000",borderRadius:"50px", border:"0", marginRight:"5px" }}onClick={()=>setShowPlanetarium(true)}>
+                        <div style={{ padding:".5em",  textAlign:"center"}}>Demo</div>
+                        </button> */}
+                        <button style={{position:"sticky",bottom:0, marginBlock:"2vh",backgroundColor:"#fff", color:"#000",borderRadius:"50px", border:"0" }} onClick={() => {window.open('https://sites.google.com/view/tejas-navada-portfolio/tattoo-design-diffusion-model');}}>
+                        <div style={{ padding:".5em",  textAlign:"center"}}>More Info</div>
+                        </button>
+                    </div>
+                    <style>
+                    {`
+dialog::backdrop {
+  background: rgba(0, 0, 0, .5);
+  backdrop-filter: blur(10px);
+}
+                    `} 
+                    </style>
+                    <Modal class="modalCat" className="modalCat" style={{maxHeight:"80vh", border:""}} openModal={showPlanetarium} closeModal={() => setShowPlanetarium(false)}>
+                        <div style={{width:"66vw", }}>
+                            Here is our welcome page, which displays the Nasa Astronomy Picture of the Day along with its title and description below. Underneath that are links to the various APIs that we used in making this app as well as their logos.
+                            <div style={{display:"flex", justifyContent:"space-around"}}>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image40.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image11.png"></img>
+                            </div>
+                            Here is a screenshot of our jigsaw puzzle functionality. Users can start the timer and are challenged to put the image back together as fast as possible. After completing the puzzle they are shown their time and given a rating based on how many seconds they took to complete. The user can also cancel the puzzle which stops the game and timer.
+                            
+                        </div>
+                        
+                        <button style={{position:"sticky",bottom:0,float:"right", marginTop:"2vh",backgroundColor:"#fff", color:"#000",borderRadius:"50px", border:"0" }} onClick={() => setShowPlanetarium(false)}>
+                            <div style={{ padding:".5em",  textAlign:"center"}}>Close</div>
+                        </button>
+                    
+                    </Modal>
+                    
+                </div>
+                <img style={{borderRadius:"10px", margin:"auto",minWidth:"50%", objectFit:"contain", width:"auto", height:"auto", bottom:0}}  src="TattooDiffusionTrain.png"></img>
+            </Block>
+
+            <Block hover={true} style={{width:"50vw",minWidth:"600px", maxWidth:"100%", margin:"auto", textAlign:"left",paddingLeft:"2.5vw", paddingTop:"2.5vh", display:"flex", justifyContent:"space-between", marginBlock:"5vh",}}>
+                <div style={{marginRight:"2.5vw"}}>
+                    <span style={{fontSize:24, fontWeight:500}}>
+                        Face Recognition Model
+                    </span>
+                    <br></br>
+                    <div style={{display:"flex", marginTop:"2vh"}}>
+                        <div>Made with: </div>
+                        <svg style={{position:"relative",zIndex:11, paddingInline:".5vw"}} xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 32 32"><defs><linearGradient id="A" x1="811.527" y1="574.895" x2="665.255" y2="573.732" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#366a96"/><stop offset="1" stop-color="#3679b0"/></linearGradient><linearGradient id="B" x1="862.824" y1="642.176" x2="573.276" y2="642.176" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffc836"/><stop offset="1" stop-color="#ffe873"/></linearGradient></defs><g transform="matrix(.1617 0 0 .158089 -107.53764 -81.66187)"><path d="M716.255 544.487c0-13.623 3.653-21.034 23.822-24.563 13.693-2.4 31.25-2.7 47.627 0 12.935 2.135 23.822 11.77 23.822 24.563v44.945c0 13.182-10.57 23.98-23.822 23.98h-47.627c-16.164 0-29.787 13.782-29.787 29.363v21.564h-16.376c-13.852 0-21.917-9.988-25.305-23.964-4.57-18.776-4.376-29.963 0-47.945 3.794-15.687 15.917-23.964 29.77-23.964h65.52v-6h-47.645v-17.98z" fill="url(#A)"/><path d="M811.527 688.32c0 13.623-11.823 20.523-23.822 23.964-18.052 5.188-32.54 4.394-47.627 0-12.6-3.67-23.822-11.17-23.822-23.964v-44.945c0-12.935 10.782-23.98 23.822-23.98h47.627c15.864 0 29.787-13.71 29.787-29.963v-20.964h17.858c13.87 0 20.4 10.305 23.822 23.964 4.764 18.97 4.976 33.157 0 47.945-4.817 14.364-9.97 23.964-23.822 23.964H763.9v6h47.627v17.98z" fill="url(#B)"/><path d="M728.166 541.505c0-4.976 3.988-9 8.93-9 4.923 0 8.93 4.023 8.93 9 0 4.96-4.006 8.982-8.93 8.982-4.94 0-8.93-4.023-8.93-8.982zm53.59 149.798c0-4.96 4.006-8.982 8.93-8.982 4.94 0 8.93 4.023 8.93 8.982 0 4.976-3.988 9-8.93 9-4.923 0-8.93-4.023-8.93-9z" fill="#fff"/></g></svg>
+                        <svg style={{position:"relative",zIndex:11, paddingInline:".5vw"}} xmlns="http://www.w3.org/2000/svg" height="1.5em" xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">
+                            <path d="m61.55 128-21.84-12.68V40.55L6.81 59.56l.08-28.32L61.55 0zM66.46 0v128l21.84-12.68V79.31l16.49 9.53-.1-24.63-16.39-9.36v-14.3l32.89 19.01-.08-28.32z" fill="#ff6f00" />
+                        </svg>
+
+                    </div>
+                    <br></br>
+                    <span>
+                        Used Keras from Tensorflow to Fine-tune ResNet50 to create an embedding space where photos of the same person are placed close together and photos of 2 different people are placed far apart. Once this model is trained it can be used as a face recognition model by measuring the distance between an unknown identity's photo and a database of known identities in the embedding space. Once you find a known identity that has a distance below some margin (margin value set at training time) with the unknown identity's photo you can link these 2 photos as pertaining to the same identity. This type of model is also known as a Siamese model. Used triplet loss function and Adam optimizer during training. Trained using Labeled Face in the Wild dataset.
+                    </span>
+                    <div>
+                        {/* <button style={{position:"sticky",bottom:0, marginBlock:"2vh",backgroundColor:"#fff", color:"#000",borderRadius:"50px", border:"0", marginRight:"5px" }}onClick={()=>setShowPlanetarium(true)}>
+                        <div style={{ padding:".5em",  textAlign:"center"}}>Demo</div>
+                        </button> */}
+                        <button style={{position:"sticky",bottom:0, marginBlock:"2vh",backgroundColor:"#fff", color:"#000",borderRadius:"50px", border:"0" }} onClick={() => {window.open('https://sites.google.com/view/tejas-navada-portfolio/face-recognition-model');}}>
+                        <div style={{ padding:".5em",  textAlign:"center"}}>More Info</div>
+                        </button>
+                    </div>
+                    <style>
+                    {`
+dialog::backdrop {
+  background: rgba(0, 0, 0, .5);
+  backdrop-filter: blur(10px);
+}
+                    `} 
+                    </style>
+                    <Modal class="modalCat" className="modalCat" style={{maxHeight:"80vh", border:""}} openModal={showPlanetarium} closeModal={() => setShowPlanetarium(false)}>
+                        <div style={{width:"66vw", }}>
+                            Here is our welcome page, which displays the Nasa Astronomy Picture of the Day along with its title and description below. Underneath that are links to the various APIs that we used in making this app as well as their logos.
+                            <div style={{display:"flex", justifyContent:"space-around"}}>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image40.png"></img>
+                                <img style={{clipPath:"inset(9% 0 0 0)"}} width="33%" src="image11.png"></img>
+                            </div>
+                            Here is a screenshot of our jigsaw puzzle functionality. Users can start the timer and are challenged to put the image back together as fast as possible. After completing the puzzle they are shown their time and given a rating based on how many seconds they took to complete. The user can also cancel the puzzle which stops the game and timer.
+                            
+                        </div>
+                        
+                        <button style={{position:"sticky",bottom:0,float:"right", marginTop:"2vh",backgroundColor:"#fff", color:"#000",borderRadius:"50px", border:"0" }} onClick={() => setShowPlanetarium(false)}>
+                            <div style={{ padding:".5em",  textAlign:"center"}}>Close</div>
+                        </button>
+                    
+                    </Modal>
+                    
+                </div>
+                <img style={{borderRadius:"10px", margin:"auto",minWidth:"50%", objectFit:"contain", width:"auto", height:"auto", bottom:0}}  src="cropped.png"></img>
+            </Block>
+
             <Footer/>
         </div>
+
+        
     );
 };
   

@@ -205,9 +205,9 @@ body {
                         </style>
             
 
-            <Block style={{width:"50vw", margin:"auto", paddingInline:"2.5vw", paddingBlock:"5vh", marginBlock:"10vh", justifyContent:"center", justifyItems:"center", alignContent:"center", }}>
+            <Block style={{width:"50vw", minWidth:"1050px", margin:"auto", paddingInline:"2.5vw", paddingBlock:"5vh", marginBlock:"10vh", justifyContent:"center", justifyItems:"center", alignContent:"center", }}>
                 
-                <iframe src="https://docs.google.com/document/d/e/2PACX-1vQdgRWAOiAM_TQBKxw6AYSVDLD6b5ElQz0IcY1CUQV0JbRMxYnfmvCz6IMGWR5XY4uxBe4uXQTqI5dJ/pub?embedded=true" style={{width:"45vw", marginInline:"auto"}} height="718" frameborder="0" >Loading…</iframe>
+                <iframe src="https://docs.google.com/document/d/e/2PACX-1vQdgRWAOiAM_TQBKxw6AYSVDLD6b5ElQz0IcY1CUQV0JbRMxYnfmvCz6IMGWR5XY4uxBe4uXQTqI5dJ/pub?embedded=true" style={{width:"100%", marginInline:"auto"}} height="718" frameborder="0" >Loading…</iframe>
                 
             </Block>
 

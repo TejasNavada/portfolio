@@ -27,10 +27,10 @@ const Home = () => {
              `}   
             </style>
             <div style={{height:"20vh"}}></div>
-            <Block style={{width:"33vw", margin:"auto", textAlign:"center",paddingInline:"5vw", paddingBlock:"10vh"}}>
+            <Block style={{width:"33vw", minWidth:"460px", margin:"auto", textAlign:"center",paddingInline:"5vw", paddingBlock:"10vh"}}>
                 <div style={{display:"flex",justifyContent:"center"}}>
                     <span style={{fontSize:"40px", fontWeight:"1000", paddingRight:"5px"}}>{"<"}</span>
-                    <TypingText style={{fontSize:40,overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap"}} text={"Hello, I'm Tejas."} delay={50}/>
+                    <TypingText style={{fontSize:40,overflow:"hidden", whiteSpace:"nowrap"}} text={"Hello, I'm Tejas."} delay={50}/>
                     <span class= "cursorBlink">
                         <style>
                             {`.cursorBlink{

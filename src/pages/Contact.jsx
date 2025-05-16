@@ -57,7 +57,7 @@ const Contact = () => {
     }
   
     return (
-        <div className="home" style={{ color:"#ffffff", textAlign:"center" }} >
+        <div  style={{ color:"#ffffff", textAlign:"center", width:"100%"}} >
             
             <Header/>
             <div style={{height:"20vh"}}></div>
@@ -65,8 +65,13 @@ const Contact = () => {
             Contact Me
 
             </div>
+            <div>
+                <div>
+                    Test
+                </div>
+            </div>
 
-            <Block style={{width:"50vw", margin:"auto", textAlign:"left",paddingLeft:"2.5vw", paddingTop:"2.5vh", display:"block", marginBlock:"5vh"}}>
+            <Block style={{width:"55vw", minWidth:"350px", margin:"auto", textAlign:"left",paddingInline:"2.5vw", paddingTop:"2.5vh", display:"block", marginBlock:"5vh"}}>
                 <form 
                 id="form"
                 action="https://api.web3forms.com/submit" 
@@ -74,8 +79,10 @@ const Contact = () => {
                 method="POST"
                 style={{
                     width:"50vw",
+                    minWidth: "300px",
                     margin: '0 auto',
-                    padding: '2rem',
+                    paddingBlock: '2rem',
+                    justifyContent:"center",
                     borderRadius: '8px',
                     boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)'
                 }}
@@ -96,8 +103,8 @@ const Contact = () => {
                         placeholder="John Doe"
                         required
                         style={{
-                            width: '80%',
-                            padding: '0.75rem',
+                            width: '100%',
+                            paddingBlock: '0.75rem',
                             border: '1px solid #e5e7eb',
                             borderRadius: '4px',
                             fontSize: '1rem'
@@ -115,8 +122,8 @@ const Contact = () => {
                         placeholder="john@example.com"
                         required
                         style={{
-                            width: '80%',
-                            padding: '0.75rem',
+                            width: '100%',
+                            paddingBlock: '0.75rem',
                             border: '1px solid #e5e7eb',
                             borderRadius: '4px',
                             fontSize: '1rem'
@@ -133,8 +140,8 @@ const Contact = () => {
                         placeholder="Your message"
                         required
                         style={{
-                            width: '80%',
-                            padding: '0.75rem',
+                            width: '100%',
+                            paddingBlock: '0.75rem',
                             border: '1px solid #e5e7eb',
                             borderRadius: '4px',
                             height: '150px',
@@ -154,7 +161,7 @@ const Contact = () => {
                         onMouseEnter={()=>setHover(true)}
                         onMouseLeave={()=>setHover(false)}
                         style={{
-                            width: '85%',
+                            width: '100%',
                         backgroundColor: hover?'#2563eb':'hsla(327, 0%, 15%, .7)',
                         color: 'white',
                         padding: '0.75rem 1.5rem',
