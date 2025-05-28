@@ -257,8 +257,8 @@ const Canvas = React.memo(() => {
             var radius = Math.random()*20;
             var x = Math.random()*(window.innerWidth - radius * 2) + radius;
             var y = Math.random()*(window.innerHeight - radius * 2) + radius;
-            var dx = 0//Math.pow(-1,Math.floor(Math.random() * 2))*(((Math.random())*1)+1);
-            var dy = 0//Math.pow(-1,Math.floor(Math.random() * 2))*(((Math.random())*1)+1)
+            var dx = Math.pow(-1,Math.floor(Math.random() * 2))*(((Math.random())*.5));
+            var dy = Math.pow(-1,Math.floor(Math.random() * 2))*(((Math.random())*.5))
 
             let collision = false;
             if(i!=0){
