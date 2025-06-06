@@ -271,7 +271,7 @@ body {
                             <i class="fa fa-code-fork" aria-hidden="true"></i>
                             <div class="content cloud" style={{color:"#000", display:"block", paddingTop:"30px"}}>
                                 <h2 style={{margin:"0"}}>Sept 2023</h2>
-                                <p style={{marginBottom:"0", fontSize:12}}>Join Prof Yan Chen's lab as undergraduate research assistant to work on the VizPI platform. Worded on migrating the database from firebase to postgre and built a backend in node.js to handle api requests. Then coordinated with Java, C++ and SQL instructors to bring these languages to our platform and for our tool to be used in their courses.</p>
+                                <p style={{marginBottom:"0", fontSize:12}}>Join Prof Yan Chen's lab as undergraduate research assistant to work on the VizPI platform. Worked on migrating the database from firebase to postgre and built a backend in node.js to handle api requests. Then coordinated with Java, C++ and SQL instructors to bring these languages to our platform and for our tool to be used in their courses.</p>
                                 
                             </div>
                         </div>
